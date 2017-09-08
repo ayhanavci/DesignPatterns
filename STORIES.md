@@ -2,7 +2,7 @@
 Various parties with different weaknesses enter a dungeon with multiple bosses. Each boss can wipe a certain party.
 
 ## Command 
-Player decides to use modify his new armor pieces with various options of different professions.
+Player decides to modify his new armor pieces with various options of different professions.
 
 ## Interpreter
 A translator learns various kalimdor languages and uses them to translate.
