@@ -10,10 +10,10 @@ I implemented these patterns just for having a bit of fun and for no serious pur
 * Every design pattern tells a story about how (part of) World of Warcraft game could be explained.
 * There are three main categories of patterns. Creational, Structural and Behavioral. 
 * Every individual pattern is listed under the related category. 
-* All files in every individual pattern has no external dependencies. Patterns don't try to reuse each others code. You can just cut a folder and it should work alone.
+* No files in any pattern has external dependencies. Patterns don't try to reuse each others code. You can just cut a folder and it should work alone.
 * Every individual pattern has its own namespace.
 * Every design patter has [PatternName]Test.h and [PatternName]Test.cpp files with only one void [PatternName]Test() function in it. 
-[PatternName]Test.h files are included in parent directory Testers.h, which is included in main.cpp.
+[PatternName]Test.h files are included in parent directory Testers.h, which is included in main.cpp
 * There are three libraries, one for each pattern category. I opted to create objects for each pattern and then combining these objects in their related category library.
 * I used a lazy version of hungarian notation.
 * I tried to keep names of the files, variables, class names and functions clear. 
