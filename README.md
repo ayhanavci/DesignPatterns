@@ -1,4 +1,4 @@
-# Design Patterns (with World of Warcraft examples)
+# Design Patterns - with World of Warcraft examples
 
 I have been wanting to refresh my memory of classic design patterns (gang of four) and i had some free time at hand. So i decided to read them again and code some samples of my own. While at it, i thought why not give a ride to some recent c++ features, visual studio code and cmake too ? If you add being one of the oldschool world of warcraft players on top of having time and ambition, it was clear what i was going to do and this small piece of code happened. 
 
@@ -10,7 +10,7 @@ I implemented these patterns just for having a bit of fun and for no serious pur
 * Every design pattern tells a story about how (part of) World of Warcraft game could be explained.
 * There are three main categories of patterns. Creational, Structural and Behavioral. 
 * Every individual pattern is listed under the related category. 
-* No files in any pattern has external dependencies. Patterns don't try to reuse each others code. You can just cut a folder and it should work alone.
+* No file in any pattern has external dependencies. Patterns don't try to reuse each others code. You can just cut a folder and it should work alone.
 * Every individual pattern has its own namespace.
 * Every design patter has [PatternName]Test.h and [PatternName]Test.cpp files with only one void [PatternName]Test() function in it. 
 [PatternName]Test.h files are included in parent directory Testers.h, which is included in main.cpp
@@ -18,6 +18,7 @@ I implemented these patterns just for having a bit of fun and for no serious pur
 * I used a lazy version of hungarian notation.
 * I tried to keep names of the files, variables, class names and functions clear. 
 * Except a few, every class has its own file.
+* Stories are very shortly summarized [here](STORIES.md)
 
 
 ### Prerequisites
@@ -90,3 +91,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 World of Warcraft, Warcraft and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries.
+
+Based on patterns in the book; 
+"Design Patterns: Elements of Reusable Object-Oriented Software Book by Erich Gamma, John Vlissides, Ralph Johnson, and Richard Helm"
